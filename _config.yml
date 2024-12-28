@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Devendra Tomar
-title: Data Architect
+title: Data and Application Architect | Azure Big Data SME | Architecting Scalable Data Solutions
 email: devendra.tomar.04@gmail.com
 website: https://github.com/DevendraTomar
 
@@ -15,118 +15,127 @@ website: https://github.com/DevendraTomar
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  DevendraTomar
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
+github_username: DevendraTomar
 linkedin_username: devendratomar04
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Experienced Azure Data Architect with 12+ years in the field, specializing in designing and implementing advanced data solutions on the Microsoft Azure platform. My core expertise is in creating scalable and efficient big data architectures that empower businesses to derive actionable insights from large datasets.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  With a solid background in researching and evaluating emerging Big Data and Gen AI technologies, I also bring extensive experience in developing ETL pipelines and architecting Data Lakehouse/Data Mesh solutions.
+
+  I excel in collaborative environments and am dedicated to building strong relationships with teams and stakeholders to ensure the success of every project.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super Awesome Project 1
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-      - layout: top-middle
-        title: Super Awesome Project 2
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: Tiger Analytics
+        link: https://www.tigeranalytics.com
+        sub_title: Data and Application Architect
+        caption: December 2021 - Present
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          • Architected and implemented a modern data lakehouse on Azure using Databricks, enabling self-service and governance.
+          • Designed and developed metadata-driven data pipelines for ingestion, transformation, and quality checks.
+          • Integrated Azure OpenAI services to automate SQL query generation and data quality rule recommendations.
+      - layout: left
+        title: Optum
+        link: https://www.optum.com
+        sub_title: Lead Software Engineer
+        caption: February 2021 - December 2021
+        description: | # this will include new lines to allow paragraphs
+          • Led the development of a YAML-based data pipeline for Big Query, enhancing data discovery and governance.
+          • Spearheaded the end-to-end orchestration of a real-time data migration solution using Cloud Composer and Kafka.
+      - layout: left
+        title: Coforge
+        link: https://www.coforge.com
+        sub_title: Technical Analyst
+        caption: December 2018 - January 2021
+        description: | # this will include new lines to allow paragraphs
+          • Designed and implemented an Azure-based Data Lake for a UK-based telecom client.
+          • Conducted research and development of various tools (IaaS, PaaS) for real-time and batch data processing on Azure.
+          • Augmented Azure Data Factory ingestion pipelines to perform incremental ingestion between different sources.
+          • Conducted research and development on creating data lakes using Docker containers for on-premise systems and handled change data capture (CDC) in near real-time using open-source technologies.
+      - layout: left
+        title: Sapient Global Markets
+        link: https://www.publicissapient.com
+        sub_title: Senior Associate
+        caption: August 2016 - November 2018
+        description: | # this will include new lines to allow paragraphs
+          • Developed Spark application for processing XML and flat data files from an S3 location, extracting relevant information, and converting the curated data into a fixed-width format file backed by an external Hive table, making it queryable over Hive.
+          • Created data ingestion/transformation pipelines in NiFi that listened to multiple sources for transaction data (RabbitMQ, Client’s S3 Bucket, and File System) and designed the data model for the same in Hive.
+          • Developed a custom NiFi processor that allowed users to run Hive queries (DDL/DML) from NiFi using the Hive Thrift Connection Service.
+          • Created utility custom processors for Apache NiFi (Random Data Generator, LoadDataToNeo4j, CsvToJsonConverter).
+          • Enhanced the Data Lake's global search feature to enable searching for different criteria (Metadata Searching, Actual Data Search for All Feeds/Specific Feeds).
+          • Developed a chatbot QnA service that ran over an ontology and answered questions based on business data indexed in Elasticsearch.
+          • Created and modified NiFi templates based on business requirements.
+      - layout: left
+        title: NEC Technologies India Ltd.
+        link: https://in.nec.com
+        sub_title: Senior MTS
+        caption: December 2012 - July 2016
+        description: | # this will include new lines to allow paragraphs
+          • Worked on the system requirements and design of Data Exchange Server (DES) module of TIMS (Traffic Incident and Management System).
+          • Creation of multi-threaded client and server application (Sockets) for file exchange between the machines.
+          • Migration of Service layer code from BEA Web logic Workshop to Java.
+          • New Electronic Banking Screens Development and Unit Testing.
+          • Running Find Bugs and JTest tools on the code and resolving issues identified by them.
+          • Development of Test Tool in Java Swing for UNC Service Layer API's, tool supported both Manual and Automation Mode.
+          • Development of Web Server Manager (WSMGR) module for UNC Core that manages Web Server (Tomcat) when the UNC Core is in Active (ACT) or Standby (SBY) mode.
+          • Stubs Development and Unit Testing of UNC Service Layer API's.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: Uttarakhand Technical University
+        caption: 2008 - 2012
+        sub_title: Bachelor's Degree, Computer Science
+      - layout: left
+        title: Amtul's Public School, Nainital
+        caption: 2006 - 2008
+        sub_title: Computer Science
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Top Skills
+    layout: list
+    content:
+      - layout: left
+        title: Data Engineering
+      - layout: left
+        title: Generative AI
+      - layout: left
+        title: FastAPI
+      - layout: left
+        title: Azure Devops
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        title: Databricks Certified Data Engineer Professional
+      - layout: left
+        title: Databricks Certified Data Engineer Associate
+      - layout: left
+        title: Astronomer Certification for Apache Airflow
+      - layout: left
+        title: Oracle Certified Java Programmer (OCJP)
+      - layout: left
+        title: Azure DP 200 - Implementing an Azure Data Solution  
+
+  - title: Honors-Awards
+    layout: list
+    content:
+      - layout: left
+        title: Coforge - Emerging Performer of the Year
+      - layout: left
+        title: Publicis Sapient - You Make a Difference
+      - layout: left
+        title: NEC - Award of Excellence
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
