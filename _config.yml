@@ -57,45 +57,21 @@ content:
         sub_title: Technical Analyst
         caption: December 2018 - January 2021
         description: | # this will include new lines to allow paragraphs
-          • Designed and implemented an Azure-based Data Lake for a UK-based telecom client.
-
-          • Conducted research and development of various tools (IaaS, PaaS) for real-time and batch data processing on Azure.
-
-          • Augmented Azure Data Factory ingestion pipelines to perform incremental ingestion between different sources.
-
-          • Conducted research and development on creating data lakes using Docker containers for on-premise systems and handled change data capture (CDC) in near real-time using open-source technologies.
+            Designed and implemented an Azure-based Data Lake for a UK-based telecom client, conducting research and development of various tools (IaaS, PaaS) for real-time and batch data processing on Azure. Augmented Azure Data Factory ingestion pipelines to perform incremental ingestion between different sources. Conducted research and development on creating data lakes using Docker containers for on-premise systems and handled change data capture (CDC) in near real-time using open-source technologies.
       - layout: left
         title: Sapient Global Markets
         link: https://www.publicissapient.com
         sub_title: Senior Associate
         caption: August 2016 - November 2018
         description: | # this will include new lines to allow paragraphs
-          • Developed Spark application for processing XML and flat data files from an S3 location, extracting relevant information, and converting the curated data into a fixed-width format file backed by an external Hive table, making it queryable over Hive.
-
-          • Created data ingestion/transformation pipelines in NiFi that listened to multiple sources for transaction data (RabbitMQ, Client’s S3 Bucket, and File System) and designed the data model for the same in Hive.
-
-          • Developed a custom NiFi processor that allowed users to run Hive queries (DDL/DML) from NiFi using the Hive Thrift Connection Service.
-
-          • Created utility custom processors for Apache NiFi (Random Data Generator, LoadDataToNeo4j, CsvToJsonConverter).
-
-          • Enhanced the Data Lake's global search feature to enable searching for different criteria (Metadata Searching, Actual Data Search for All Feeds/Specific Feeds).
-
-          • Developed a chatbot QnA service that ran over an ontology and answered questions based on business data indexed in Elasticsearch.
-
-          • Created and modified NiFi templates based on business requirements.
+          Developed Spark applications for processing XML and flat data files from S3, converting them into a fixed-width format backed by an external Hive table for queryability. Created data ingestion and transformation pipelines in NiFi, integrating multiple sources like RabbitMQ, S3, and File System, and designed the corresponding data model in Hive. Developed custom NiFi processors for running Hive queries and utility processors for various tasks. Enhanced the Data Lake's global search feature for metadata and actual data searches. Developed a chatbot QnA service using an ontology and Elasticsearch, and created/modifed NiFi templates based on business requirements.
       - layout: left
         title: NEC Technologies India Ltd.
         link: https://in.nec.com
         sub_title: Senior MTS
         caption: December 2012 - July 2016
         description: | # this will include new lines to allow paragraphs
-          • Developed and tested multi-threaded client-server applications for file exchange.
-          
-          • Migrated service layer code from BEA WebLogic Workshop to Java.
-          
-          • Created new electronic banking screens and performed unit testing.
-          
-          • Developed test tools and modules for managing web servers and UNC service layer APIs.
+          Developed and tested multi-threaded client-server applications for file exchange, migrated service layer code from BEA WebLogic Workshop to Java, created new electronic banking screens, and performed unit testing. Additionally, developed test tools and modules for managing web servers and UNC service layer APIs.
 
   - title: Education
     layout: list
@@ -110,19 +86,19 @@ content:
         sub_title: Computer Science
 
   - title: Top Skills
-    layout: list
+    layout: grid
     content:
-      - layout: left
+      - layout: center
         title: Data Engineering
-      - layout: left
+      - layout: center
         title: Generative AI
-      - layout: left
+      - layout: center
         title: Application Engineering
-      - layout: left
+      - layout: center
         title: System Design
 
   - title: Certifications
-    layout: list
+    layout: grid
     content:
       - layout: center
         title: Databricks Certified Data Engineer Professional

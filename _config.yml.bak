@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Devendra Tomar
-title: Data and Application Architect | Azure Big Data SME | Architecting Scalable Data Solutions
+title: Data and Application Architect | Azure Big Data SME 
 email: devendra.tomar.04@gmail.com
 website: https://github.com/DevendraTomar
 
@@ -38,7 +38,9 @@ content:
         caption: December 2021 - Present
         description: | # this will include new lines to allow paragraphs
           • Architected and implemented a modern data lakehouse on Azure using Databricks, enabling self-service and governance.
+
           • Designed and developed metadata-driven data pipelines for ingestion, transformation, and quality checks.
+
           • Integrated Azure OpenAI services to automate SQL query generation and data quality rule recommendations.
       - layout: left
         title: Optum
@@ -47,6 +49,7 @@ content:
         caption: February 2021 - December 2021
         description: | # this will include new lines to allow paragraphs
           • Led the development of a YAML-based data pipeline for Big Query, enhancing data discovery and governance.
+
           • Spearheaded the end-to-end orchestration of a real-time data migration solution using Cloud Composer and Kafka.
       - layout: left
         title: Coforge
@@ -55,8 +58,11 @@ content:
         caption: December 2018 - January 2021
         description: | # this will include new lines to allow paragraphs
           • Designed and implemented an Azure-based Data Lake for a UK-based telecom client.
+
           • Conducted research and development of various tools (IaaS, PaaS) for real-time and batch data processing on Azure.
+
           • Augmented Azure Data Factory ingestion pipelines to perform incremental ingestion between different sources.
+
           • Conducted research and development on creating data lakes using Docker containers for on-premise systems and handled change data capture (CDC) in near real-time using open-source technologies.
       - layout: left
         title: Sapient Global Markets
@@ -65,11 +71,17 @@ content:
         caption: August 2016 - November 2018
         description: | # this will include new lines to allow paragraphs
           • Developed Spark application for processing XML and flat data files from an S3 location, extracting relevant information, and converting the curated data into a fixed-width format file backed by an external Hive table, making it queryable over Hive.
+
           • Created data ingestion/transformation pipelines in NiFi that listened to multiple sources for transaction data (RabbitMQ, Client’s S3 Bucket, and File System) and designed the data model for the same in Hive.
+
           • Developed a custom NiFi processor that allowed users to run Hive queries (DDL/DML) from NiFi using the Hive Thrift Connection Service.
+
           • Created utility custom processors for Apache NiFi (Random Data Generator, LoadDataToNeo4j, CsvToJsonConverter).
+
           • Enhanced the Data Lake's global search feature to enable searching for different criteria (Metadata Searching, Actual Data Search for All Feeds/Specific Feeds).
+
           • Developed a chatbot QnA service that ran over an ontology and answered questions based on business data indexed in Elasticsearch.
+
           • Created and modified NiFi templates based on business requirements.
       - layout: left
         title: NEC Technologies India Ltd.
@@ -77,14 +89,13 @@ content:
         sub_title: Senior MTS
         caption: December 2012 - July 2016
         description: | # this will include new lines to allow paragraphs
-          • Worked on the system requirements and design of Data Exchange Server (DES) module of TIMS (Traffic Incident and Management System).
-          • Creation of multi-threaded client and server application (Sockets) for file exchange between the machines.
-          • Migration of Service layer code from BEA Web logic Workshop to Java.
-          • New Electronic Banking Screens Development and Unit Testing.
-          • Running Find Bugs and JTest tools on the code and resolving issues identified by them.
-          • Development of Test Tool in Java Swing for UNC Service Layer API's, tool supported both Manual and Automation Mode.
-          • Development of Web Server Manager (WSMGR) module for UNC Core that manages Web Server (Tomcat) when the UNC Core is in Active (ACT) or Standby (SBY) mode.
-          • Stubs Development and Unit Testing of UNC Service Layer API's.
+          • Developed and tested multi-threaded client-server applications for file exchange.
+          
+          • Migrated service layer code from BEA WebLogic Workshop to Java.
+          
+          • Created new electronic banking screens and performed unit testing.
+          
+          • Developed test tools and modules for managing web servers and UNC service layer APIs.
 
   - title: Education
     layout: list
@@ -106,32 +117,32 @@ content:
       - layout: left
         title: Generative AI
       - layout: left
-        title: FastAPI
+        title: Application Engineering
       - layout: left
-        title: Azure Devops
+        title: System Design
 
   - title: Certifications
     layout: list
     content:
-      - layout: left
+      - layout: center
         title: Databricks Certified Data Engineer Professional
-      - layout: left
+      - layout: center
         title: Databricks Certified Data Engineer Associate
-      - layout: left
+      - layout: center
         title: Astronomer Certification for Apache Airflow
-      - layout: left
+      - layout: center
         title: Oracle Certified Java Programmer (OCJP)
-      - layout: left
+      - layout: center
         title: Azure DP 200 - Implementing an Azure Data Solution  
 
   - title: Honors-Awards
     layout: list
     content:
-      - layout: left
+      - layout: center
         title: Coforge - Emerging Performer of the Year
-      - layout: left
+      - layout: center
         title: Publicis Sapient - You Make a Difference
-      - layout: left
+      - layout: center
         title: NEC - Award of Excellence
 
 # Footer
